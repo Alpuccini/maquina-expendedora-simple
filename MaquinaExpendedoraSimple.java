@@ -48,6 +48,13 @@ public class MaquinaExpendedoraSimple {
     public int getPrecioBillete() {
         return precioBillete;
     }
+    
+    /**
+     * Modifica el precio del billete una vez que el objeto se ha creado
+     */
+    public void setPrecioBillete(int nuevoPrecio){
+        precioBillete = nuevoPrecio;
+    }
 
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
